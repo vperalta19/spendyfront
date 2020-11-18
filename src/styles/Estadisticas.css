@@ -1,0 +1,31 @@
+.estadisticas {
+	display: flex;
+	flex-direction: row;
+}
+
+@media(max-width: 768px) {
+	.estadisticas {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.estadisticas .dashboard {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.estadisticas .dashboard .spendy-card.category-card {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 1;
+}
+
+.estadisticas .dashboard .spendy-card.history-card {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}

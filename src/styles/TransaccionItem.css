@@ -1,0 +1,37 @@
+li:nth-child(odd) .transaccion {
+	background-color: #EAF3FA;
+}
+li:nth-child(even) .transaccion {
+	background-color: #F4FAFF;
+}
+.transaccion {
+	display: flex;
+	flex-direction: row;
+	padding: 4px 10px;
+}
+.transaccion .fecha {
+	flex-grow: 0;
+	flex-basis: 30%;
+}
+.transaccion .categoria {
+	flex-grow: 1;
+}
+.transaccion .categoria .organizador {
+    display: flex;
+	line-height: 30px;
+}
+.transaccion .categoria .organizador .categoria-nombre {
+	padding-left: 10px;
+	font-size: 22px;
+}
+.transaccion .monto{
+	flex-grow: 0;
+
+	font-size: 20px;
+}
+.transaccion .monto.gasto {
+	color: #FF6A6A;
+}
+.transaccion .monto.ingreso {
+	color: #10CA8C;
+}

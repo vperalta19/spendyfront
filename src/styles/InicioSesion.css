@@ -1,0 +1,50 @@
+.registro {
+	padding-top: 5%;
+}
+.inicio .campos {
+	border-radius: 25px;
+	background: #EFEFEF;
+	border: none; 
+	padding: 14px;
+	width: 100%;
+	margin-top: 25px;
+}
+
+.inicio .image{
+	width:90%;
+	height: auto;
+	margin-top: 5%;
+}
+
+.inicio .logo{
+	width: 124px;
+	height: 47px;
+	margin-top: 10px;
+	margin-left: 36px;
+}
+
+.inicio .titulo{
+font-family: "Arial";
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 35px;
+color: #F99746;
+}
+
+.inicio .botones{
+	margin-top: 20px;
+	float: right;
+}
+
+.inicio .botones .button-p{
+    width: 123px;
+	height: 27px;
+	margin: 15px;
+}
+
+@media(max-width: 991px){
+	.inicio .titulo{
+		margin-top: 25px;
+	}
+}

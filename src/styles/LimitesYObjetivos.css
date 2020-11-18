@@ -1,0 +1,57 @@
+.limites-objetivos {
+	display: flex;
+	flex-direction: row;
+}
+
+@media(max-width: 768px) {
+	.limites-objetivos {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.limites-objetivos .dashboard {
+	display: grid;
+	grid-template-columns: 2;
+	grid-template-rows: 2;
+}
+
+.limites-objetivos .dashboard .spendy-card.limites-card {
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+.limites-objetivos .dashboard .spendy-card.objetivos-card {
+	grid-column-start: 2;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+}
+
+@media(max-width: 1024px) {
+	.limites-objetivos .dashboard .spendy-card.limites-card {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 1;
+		grid-row-end: 1;
+	}
+	.limites-objetivos .dashboard .spendy-card.objetivos-card {
+		grid-column-start: 1;
+		grid-column-end: 2;
+		grid-row-start: 2;
+		grid-row-end: 2;
+	}
+}
+
+.limites-objetivos .MuiSpeedDial-root.MuiSpeedDial-directionUp.boton-flotante {
+	right: 32px;
+	bottom: 31px;
+}
+.limites-objetivos .boton-flotante .MuiFab-primary, .boton-flotante .MuiFab-primary:hover {
+	background-color: white;
+}
+.limites-objetivos span.MuiSpeedDialIcon-root {
+	background-color: white;
+	color: #6E80B0;
+}

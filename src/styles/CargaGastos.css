@@ -1,0 +1,186 @@
+.carga-gastos {
+	width: 630px;
+	height: 700px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+@media(max-width:761px){
+	.carga-gastos {
+		width: 400px;
+		height: 650px;
+
+		display: flex;
+		flex-direction: column;
+	}
+}
+.carga-gastos .titulo {
+	text-align: center;
+}
+.carga-gastos .amount {
+	height: 40px;
+	margin: 10px 20px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+	background-color: #FFA514;
+	box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.25) inset;
+}
+.carga-gastos .amount .moneda {
+	padding: 0 10px;
+	font-size: 22px;
+	align-self: center;
+	border-right: white 1px solid;
+}
+.carga-gastos .amount .cantidad-input {
+	width: 100%;
+	color: white;
+	font-size: 32px;
+	text-align: right;
+	border: none;
+	background: transparent;
+}
+.carga-gastos .amount .cantidad-input::placeholder {
+	color: white;
+	opacity: 1;
+}
+.carga-gastos .amount .cantidad-input::-ms-input-placeholder {
+	color: white;
+}
+.carga-gastos .amount .cantidad-input:-ms-input-placeholder {
+	color: white;
+}
+.carga-gastos .amount .delete-button {
+	align-self: center;
+	margin: 0 10px;
+}
+.carga-gastos .category-selection {
+	height: 335px;
+	margin: 0 10px;
+	overflow-y: auto;
+}
+.carga-gastos .category-selection .categoria-add {
+	height: 75px;
+	width: 75px;
+	position: relative;
+	display: inline;
+	cursor: pointer;
+	color: #FFA514;
+}
+.carga-gastos .category-selection .categoria-add:hover {
+	color: #f8a013;
+}
+.carga-gastos .category-selection .categoria-add .plus {
+	position: absolute;
+	height: 35px;
+	width: 35px;
+	margin: 25px;
+}
+.carga-gastos .category-selection .categoria-add .circle {
+    position: absolute;
+    margin: 10px;
+    height: 65px;
+    width: 65px;
+}
+.carga-gastos .new-category {
+	height: 225px;
+	background-color: #f4f4f4;
+	border-radius: 10px;
+	padding: 6px 5px;
+	margin: 0 16px;
+	position: relative;
+}
+.carga-gastos .new-category .icons-list {
+	overflow-x: auto;
+}
+.carga-gastos .new-category .icons-list .icon {
+	display: inline-block;
+	margin: 2px;
+	width: 25px;
+	height: 25px;
+}
+.carga-gastos .new-category .colors-list {
+	overflow-x: auto;
+}
+.carga-gastos .new-category .colors-list .color {
+	display: inline-block;
+	margin: 2px;
+	border-radius: 4px;
+	padding: 4px;
+	width: 28px;
+	height: 28px;
+}
+.carga-gastos .new-category .button-container {
+	position: absolute;
+	float: left;
+	right: 5px;
+	bottom: 5px;
+	display: flex;
+	flex-direction: row;
+	height: 25px;
+}
+.carga-gastos .new-category .button-container .button-p {
+	width: 100px;
+	line-height: 15px;
+	background: linear-gradient(90deg, #31ab42 0%, #6fdc7f 100%);
+}
+.carga-gastos .new-category .button-container .button-s {
+	color: #4fc360;
+	margin-right: 10px;
+}
+.carga-gastos .new-category .button-container .button-s {
+	color: #3e9c4c;
+}
+
+.carga-gastos .description-title {
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.carga-gastos .description {
+	height: 100px;
+	margin: 0 20px;
+}
+.carga-gastos .gastos-type {
+	margin: 20px 20px 0 20px;
+}
+.carga-gastos .fecha {
+	margin-left: 20px;
+}
+.carga-gastos .react-datepicker__day--keyboard-selected,
+.carga-gastos .react-datepicker__month-text--keyboard-selected,
+.carga-gastos .react-datepicker__quarter-text--keyboard-selected,
+.carga-gastos .react-datepicker__year-text--keyboard-selected {
+	color: black !important;
+	background-color: transparent !important;
+}
+.carga-gastos .react-datepicker__day.react-datepicker__day--outside-month {
+	color: #cccccc;
+}
+.carga-gastos .buttons {
+	margin: 15px 20px;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-grow: 1;
+}
+.carga-gastos .buttons .confirmar { 
+	width: 130px;
+}
+.carga-gastos .buttons .cancelar {
+	width: 130px;
+	margin-right: 20px;
+}
+
+.new-category input{
+	border: none;
+	text-decoration: none;
+	border-radius: 25px;
+	width: 100%;
+	padding: 10px;
+	box-shadow: 0 0 5px -3px black;
+}
+
+.new-category .seleccion{
+	font-size: 15px;
+	color: #6E80B0;
+}

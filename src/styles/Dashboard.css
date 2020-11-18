@@ -1,0 +1,21 @@
+.dashboard {
+	position: relative;
+	width: 100%;
+	padding: 15px;
+
+	background: #EAF3FA;
+	overflow-y: auto;
+
+	display: grid;
+	gap: 15px;
+
+	height: 100vh;
+}
+
+.dashboard .spendy-card {
+	min-height: 100px;
+	min-width: 100px;
+	border-radius: 20px;
+	overflow: hidden;
+	background-color: white;
+}

@@ -1,0 +1,79 @@
+.categorias-container {
+	width: 900px;
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+}
+.categorias-container .categotrias-list {
+	flex-basis: 40%;
+	display: flex;
+	flex-direction: column;
+}
+.categorias-container .categotrias-list .gastos-list,
+.categorias-container .categotrias-list .ingresos-list {
+	flex-grow: 1;
+}
+.categorias-container .separator {
+	width: 2px;
+	background-color: grey;
+}
+.categorias-container .categoria-value {
+	flex-basis: 60%;
+}
+.categoria-item {
+	width: 75px;
+	height: 75px;
+	margin: 5px;
+	display: inline-block;
+	cursor: pointer;
+	box-shadow: 2px 2px 4px #6E80B0;
+}
+.categoria-item.selected {
+	box-shadow: inset 2px 2px 4px #6E80B0;
+}
+.categoria-item .organizer {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+.categoria-item .organizer .icon-container {
+	flex: 1;
+	display: flex;
+}
+.categoria-item .organizer .icon-container .icon {
+	margin: auto;
+}
+.categoria-item .organizer .texto {
+	text-align: center;
+	font-size: 12px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.categorias-container .categoria-value {
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+}
+.categorias-container .categoria-value .titulo {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: row;
+	color: white;
+}
+.categorias-container .categoria-value .titulo .icon {
+	margin: 4px;
+	margin-left: 15px;
+}
+.categorias-container .categoria-value .titulo .text {
+	font-size: 32px;
+	padding-top: 4px;
+	padding-left: 10px;
+}
+.categorias-container .categoria-value .content {
+	flex-grow: 1;
+}
+.categorias-container .categoria-value .buttons {
+	height: 30px;
+	display: flex;
+	flex-direction: row-reverse;
+}

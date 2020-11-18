@@ -1,0 +1,226 @@
+.landing .slide1{
+	background-image: url(./../images/slide1.jpg);
+	/* Full height */
+	min-height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.landing .slide2{
+	background-image: url(./../images/slide2.jpg);
+	/* Full height */
+	min-height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.landing .slide3{
+	background-image: url(./../images/slide3.jpg);
+	/* Full height */
+	min-height: 100vh;
+
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.landing .slide4{
+	background-image: url(./../images/slide4.jpg);
+	/* Full height */
+	min-height: 100vh; 
+	
+	/* Center and scale the image nicely */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
+}
+
+.landing h2{
+	font-style: normal;
+	font-weight: 500;
+	font-size: 50px;
+	line-height: 59px;
+	color: #000000;
+}
+
+.landing span{
+	font-style: normal;
+	font-weight: 300;
+	font-size: 30px;
+	line-height: 35px;
+	color: #000000;
+	width: 460px; 
+}
+
+.landing .slide1 h2{
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+
+.landing .slide1 span{
+	position: absolute;
+	top: 46%;
+	left: 5%;
+}
+
+.landing .slide2 h2{
+	position: absolute;
+	top: 40%;
+	left: 5%;
+}
+
+.landing .slide2 span{
+	position: absolute;
+	top: 46%;
+	left: 5%;
+}
+
+.landing .slide3 h2{
+	position: absolute;
+	top: 20%;
+	left: 5%;
+}
+
+.landing .slide3 span{
+	position: absolute;
+	top: 26%;
+	left: 5%;
+}
+
+.landing .slide4 h2{
+	position: absolute;
+	top: 20%;
+	left: 10%;
+}
+
+.landing .slide4 span{
+	position: absolute;
+	top: 26%;
+	left: 10%;
+}
+
+@media(max-width: 991px){
+	.landing h2{
+		font-size: 30px;
+		line-height: 35px;
+	}
+
+	.landing span{
+		font-size: 20px;
+		line-height: 23px;
+		width: 257px;
+	}
+
+	.landing .slide1{
+		background-image: url(./../images/slide1Celular.jpg);
+	}
+
+	.landing .slide1 h2{
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		
+	}
+		
+	.landing .slide1 span{
+		position: absolute;
+		top: 25%;
+		left: 10%;
+	}
+
+	.landing .slide2{
+		background-image: url(./../images/slide2Celular.jpg);
+	}
+
+	.landing .slide2 h2{
+		position: absolute;
+		top: 20%;
+		left: 10%;
+	}
+		
+	.landing .slide2 span{
+		position: absolute;
+		top: 25%;
+		left: 10%;
+	}
+
+	.landing .slide3{
+		background-image: url(./../images/slide3Celular.jpg);
+	}
+
+	.landing .slide3 h2{
+		position: absolute;
+		top: 20%;
+		left: 10%;
+	}
+		
+	.landing .slide3 span{
+		position: absolute;
+		top: 25%;
+		left: 10%;
+	}
+
+	.landing .slide4{
+		background-image: url(./../images/slide4Celular.jpg);
+	}
+
+	.landing .slide4 h2{
+		position: absolute;
+		top: 20%;
+		left: 20%;
+	}
+		
+	.landing .slide4 span{
+		position: absolute;
+		top: 25%;
+		left: 20%;
+		text-align: right;
+	}
+}
+
+.toolbar{
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	padding: 15px;
+}
+
+.toolbar img{
+	width: 124px;
+	height: auto;
+}
+
+.botones-login{
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	width: 100%;
+	z-index: 999;
+}
+
+.toolbar .button-p, .botones-login .button-p{
+	float: right;
+	width: 123px;
+	height: 27px;
+}
+
+.toolbar .button-alt, .botones-login .button-alt{
+	float: left;
+	width: 123px;
+	height: 27px;
+}

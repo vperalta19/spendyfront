@@ -1,0 +1,50 @@
+.transaccion-detalle {
+	color: white;
+	background-color: #6E80B0 !important;
+	width: 300px;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.transaccion-detalle .titulo {
+	margin-top: 20px;
+	background-color: white;
+}
+
+.transaccion-detalle .titulo .organizador {
+	width: fit-content;
+	margin: 4px auto;
+}
+
+.transaccion-detalle .titulo .organizador .texto {
+	font-size: 22px;
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+
+.transaccion-detalle .info {
+	padding: 8px;
+	padding-top: 2px;
+}
+
+.transaccion-detalle .info .descripcion {
+	margin-top: 5px;
+}
+
+.transaccion-detalle .buttons {
+	display: flex;
+	flex-direction: row-reverse;
+	padding: 8px;
+}
+
+.transaccion-detalle .buttons .atras {
+	height: 25px;
+	width: 120px;
+}
+
+.transaccion-detalle .buttons .eliminar {
+	margin-right: 10px;
+	height: 25px;
+	width: 120px;
+}
